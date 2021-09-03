@@ -1,0 +1,198 @@
+/* CSS goes here, at the top of the page */	
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
+h1, h2, h4, h5, h6 {
+    font-family: 'PT Sans', 'Helvetica', 'Arial';;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', 'Helvetica', 'Arial';
+    font-size: 20px;
+}
+.bg6 {
+    /* The image used */
+    background-image: url("ROVER.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#top-bar {
+    width: 100%;
+    background: #F1F1F1; /* light gray */
+    border-bottom: 1px solid #D4D4D4; /* dark gray "underline" */
+    height: 25px;
+}
+.normal-wrapper {
+    width:-webkit-fill-available;
+    margin: 0 auto;
+    padding: 15px 40px;
+    overflow: auto;
+}
+.logooo{
+    float: left;
+}
+#logo{
+    width: 90px;
+    height: 90px;
+    /*border : 1px solid #363636;*/
+    border-radius: 50% ;
+    float: left;
+    margin: 0 auto;
+}
+h1 {
+    float: left;
+    margin: 21px 0 0 25px;
+}
+#navbar {
+    list-style-type: none; /* rpxove bullet points */
+    margin: 29px 0 0 0;
+    padding: 0;
+    float: right;
+    font-size: 20pt;
+}
+#navbar li {
+    display: inline; /* make itpxs horizontal */
+}
+#navbar li a:link, #navbar li a:visited, #navbar li a:active{ 
+    text-decoration: none; /* rpxove underline */
+    color: #000000;
+    padding: 0 16px 0 10px; /* space links apart */
+    margin: 0;
+    border-right: 2px solid #B4B4B4; /* divider */
+}
+#navbar li a:link.last-link {
+    /* rpxove divider */
+    border-right: 0px;
+}
+#navbar li a:hover {
+    /* change color on hover (mouseover) */
+    color: #EB6361;
+}
+#top-color-splash {
+    width: 100%;
+    height: 4px;
+    background: #EB6361;
+}
+.one-third {
+    width: 52%;
+    float: left;
+    box-sizing: border-box; /* ensure padding and borders do not increase the size */
+    margin-top: 20px;
+}
+.two-third {
+    width: 48%;
+    float: left;
+    box-sizing: border-box; /* ensure padding and borders do not increase the size */
+    padding-left: 40px;
+    text-align: right;
+    margin-top: 20px;
+}
+.team{
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    font-style: italic;
+}
+#video{
+    max-width:500px ;
+    
+}
+
+.featured-image {
+
+    height: 310px;
+    padding:  0px;
+    max-width: 500px; /* reduce image size while maintaining aspect ratio */
+}
+.no-margin-top {
+    margin-top: 0; /* rpxove margin on things like headers */
+}
+#quote-area {
+    background: #363636;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px 0;
+}
+h3 {
+    font-weight: normal;
+    font-size: 20pt;
+    margin-top: 0px;
+}
+h4 {
+    font-weight: normal;
+    font-size: 16pt;
+    margin-bottom: 0;
+}
+.icon-outer {
+    box-sizing: border-box; /* ensure padding and borders do not increase the size */
+    float: left;
+    width: 33.33%;
+    padding: 25px;
+    margin: 0;
+    text-align: center;
+}
+.icon-circle {
+    background: #EEEEEE;
+    color: #B4B4B4; 
+    width: 200px;
+    height: 200px;
+    border-radius: 200px; /* make rounded corners */
+    margin: 0 auto;
+    border: 2px solid #D6D6D6;
+    box-sizing: border-box; /* ensure padding and borders do not increase the size */
+    font-size: 75pt;
+    padding: 30px 0 0 0;
+    cursor: pointer;
+}
+#codepoint{
+    padding-right: 35px;
+    padding-bottom: 7px;
+    color: #B4B4B4;
+
+}
+#codepoint22{
+    padding-bottom: 7px;
+    padding-right:40px;
+    color: #B4B4B4;
+}
+#codepoint21{
+   
+    padding-bottom: 7px;
+    color: #B4B4B4;
+}
+#codepoint:hover ,#codepoint21:hover,#codepoint22:hover {
+    color : #FFFFFF;
+}
+.icon-circle:hover {
+    /* change color on hover (mouseover) */
+    color: #FFFFFF;
+    background: #EB6361; /* red */
+}
+h5 , h5 a {
+    margin: 15px 0 10px 0;
+    font-size: 20pt;
+    text-decoration: none;
+    color: #000000;
+}
+#float{
+    text-align: right;
+}
+#footer {
+    width: 100%;
+    background: #F1F1F1; /* light gray */
+    border-top: 1px solid #D4D4D4; /* dark gray "topline" */
+    height: 15px;
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
