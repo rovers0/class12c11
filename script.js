@@ -17,5 +17,5 @@ Swal.fire({
             $("iframe").attr("src", $("iframe").attr("src").replace("autoplay=0", "autoplay=1"));
               e.preventDefault();
          } else {
-            window.location.replace("https://rovers00.xyz");
+            window.location.replace("https://rovers00.xyz"); // this not a new version
          }});
