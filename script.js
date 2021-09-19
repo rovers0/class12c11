@@ -13,9 +13,9 @@ Swal.fire({
     closeOnCancel: false
   }).then (function(isConfirm){
         if (isConfirm.value){  
+          window.location.replace("https://rovers00.xyz");
+         } else {
             Swal.fire("Cancelled", "Your Still stay with old version:)", "error");
             $("iframe").attr("src", $("iframe").attr("src").replace("autoplay=0", "autoplay=1"));
               e.preventDefault();
-         } else {
-            window.location.replace("https://rovers00.xyz");
          }});
